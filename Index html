@@ -1,276 +1,62 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rakshitha H N | Portfolio</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #000;
-      color: #fff;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 50px;
-      background-color: #111;
-    }
-
-    header h1 {
-      font-size: 22px;
-      color: #fff;
-    }
-
-    nav a {
-      color: #ddd;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    nav a:hover {
-      color: #ff4d4d;
-    }
-
-    /* Home Section */
-    .home {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 60px 20px;
-    }
-
-    .home img {
-      width: 220px;
-      height: 270px;
-      border-radius: 15px;
-      object-fit: cover;
-      margin-bottom: 20px;
-    }
-
-    .home h2 {
-      color: #ff4d4d;
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-
-    .home h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-
-    .home p {
-      max-width: 600px;
-      font-size: 16px;
-      color: #ccc;
-      line-height: 1.6;
-    }
-
-    .btn-container {
-      margin-top: 20px;
-    }
-
-    .btn {
-      background-color: #ff4d4d;
-      border: none;
-      color: #fff;
-      padding: 10px 20px;
-      margin: 5px;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: 0.3s;
-      text-decoration: none;
-      font-size: 15px;
-    }
-
-    .btn:hover {
-      background-color: #ff6666;
-    }
-
-    /* About Section */
-    .about {
-      background-color: #111;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .about h2 {
-      color: #ff4d4d;
-      font-size: 26px;
-      margin-bottom: 20px;
-    }
-
-    .about p {
-      max-width: 700px;
-      margin: 0 auto;
-      font-size: 16px;
-      color: #ccc;
-      line-height: 1.8;
-    }
-
-    .about-details {
-      margin-top: 30px;
-      text-align: left;
-      max-width: 400px;
-      margin: 30px auto;
-      background-color: #1a1a1a;
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .about-details p {
-      color: #eee;
-      margin: 8px 0;
-    }
-
-    .highlight {
-      color: #ff4d4d;
-      font-weight: bold;
-    }
-
-    /* Projects Section */
-    .projects {
-      background-color: #000;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .projects h2 {
-      color: #ff4d4d;
-      font-size: 26px;
-      margin-bottom: 40px;
-    }
-
-    .project-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-
-    .project-card {
-      background-color: #111;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: left;
-      transition: 0.3s;
-    }
-
-    .project-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 4px 12px rgba(255, 77, 77, 0.4);
-    }
-
-    .project-card h3 {
-      color: #ff4d4d;
-      margin-bottom: 10px;
-    }
-
-    .project-card p {
-      color: #ccc;
-      font-size: 14px;
-      margin-bottom: 15px;
-    }
-
-    .project-card a {
-      text-decoration: none;
-      color: #fff;
-      background: #ff4d4d;
-      padding: 8px 12px;
-      border-radius: 6px;
-      font-size: 14px;
-    }
-
-    .project-card a:hover {
-      background: #ff6666;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <h1>Rakshitha H N</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Skills</a>
-      <a href="#">Projects</a>
-      <a href="#">Certificates</a>
-      <a href="#">Contact</a>
-    </nav>
+ <p>MCA Student | Frontend Developer | Passionate Learner</p>
+    <p>
+      <a href="https://github.com/rakshu112003" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="https://www.linkedin.com/in/rakshitha-hn-a14124327" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
   </header>
 
-  <!-- Home Section -->
-  <section class="home">
-    <img src="your-photo.jpg" alt="Rakshitha H N">
-    <h2>Frontend / MERN Developer</h2>
-    <h1>MCA Graduate | Passionate Learner</h1>
-    <p>
-      I’m a motivated frontend developer focused on building clean and responsive web applications.
-      I love learning new technologies and working on creative projects that make an impact.
-    </p>
-    <div class="btn-container">
-      <a href="https://drive.google.com/file/d/1qmmC9gUKE-5x5QiepfG9s5PkNp2clvdM/view?usp=sharing" 
-         class="btn" target="_blank" rel="noopener">Download CV</a>
-      <a href="mailto:rakshitha123@gmail.com" class="btn">Hire Me</a>
-    </div>
-  </section>
-
-  <!-- About Me Section -->
-  <section class="about">
+  <section id="about">
     <h2>About Me</h2>
     <p>
-      Hi! I’m <span class="highlight">Rakshitha</span>, an MCA graduate and frontend developer passionate about
-      creating user-friendly and visually appealing web experiences. I enjoy solving problems,
-      exploring new tools, and collaborating to grow as a developer.
+      Hi! I’m Rakshitha, an MCA student and frontend developer passionate about creating beautiful and responsive web applications.
     </p>
-
-    <div class="about-details">
-      <p><span class="highlight">Name:</span> Rakshitha H N</p>
-      <p><span class="highlight">Date of Birth:</span> 11/01/2003</p>
-      <p><span class="highlight">Address:</span> Mandya, Karnataka, India</p>
-      <p><span class="highlight">Pin Code:</span> 571424</p>
-      <p><span class="highlight">Email:</span> rakshitha123@gmail.com</p>
-      <p><span class="highlight">Phone:</span> 7411275251</p>
-    </div>
+    <ul>
+      <li><strong>Date of Birth:</strong> 11/01/2003</li>
+      <li><strong>Location:</strong> Mandya, Karnataka, India</li>
+      <li><strong>Email:</strong> rakshitha123@gmail.com</li>
+      <li><strong>Phone:</strong> 7411275251</li>
+    </ul>
   </section>
 
-  <!-- Projects Section -->
-  <section class="projects">
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, Java, JavaScript</li>
+      <li><strong>Frameworks:</strong> HTML, CSS, React.js, Node.js</li>
+      <li><strong>Tools:</strong> VS Code, Git, Jupyter, XAMPP</li>
+      <li><strong>Databases:</strong> SQL, MongoDB</li>
+    </ul>
+  </section>
+
+  <section id="projects">
     <h2>Projects</h2>
-    <div class="project-container">
+    <ul>
+      <li>
+        <strong>Expenses Tracker with Budget Alert</strong> — Built with React.js.
+[10/4, 7:03 PM] ChatGPT: <a href="https://rakshu112003.github.io/Expenses-tracker-with-budget-alert-/" target="_blank" rel="noopener noreferrer">Live Demo</a> |  
+        <a href="https://github.com/rakshu112003/Expenses-tracker-with-budget-alert-" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </li>
+      <li>
+        <strong>Portfolio Website</strong> — Personal portfolio built with HTML, CSS, JavaScript.  
+        <a href="https://rakshu112003.github.io/Rakshu-portfolio-/" target="_blank" rel="noopener noreferrer">Live Demo</a> |  
+        <a href="https://github.com/rakshu112003/Rakshu-portfolio-" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </li>
+    </ul>
+  </section>
 
-      <div class="project-card">
-        <h3>RoomEase – Room Booking App</h3>
-        <p>MERN stack project for booking rooms with authentication and booking features.</p>
-        <a href="https://github.com/rakshu112003/roomease" target="_blank">View on GitHub</a>
-      </div>
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li><a href="https://www.codechef.com/dashboard" target="_blank" rel="noopener noreferrer">CodeChef Certificate</a></li>
+      <li><a href="https://skills.yourlearning.ibm.com/learning/completed" target="_blank" rel="noopener noreferrer">IBM SkillsBuild Certificate</a></li>
+    </ul>
+  </section>
 
-      <div class="project-card">
-        <h3>Job Portal</h3>
-        <p>Full-stack MERN job portal app with role-based login, job posting, and applications.</p>
-        <a href="https://github.com/rakshu112003/job-portal" target="_blank">View on GitHub</a>
-      </div>
-
-      <div class="project-card">
-        <h3>Quiz App</h3>
-        <p>Interactive quiz application with timer, scoring, and results using HTML, CSS, JS.</p>
-        <a href="https://github.com/rakshu112003/quiz-app" target="_blank">View on GitHub</a>
-      </div>
-
-    </div>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:rakshitha123@gmail.com">rakshitha123@gmail.com</a></p>
+    <p>Phone: 7411275251</p>
   </section>
 
 </body>
 </html>
-
- 
